@@ -15,7 +15,7 @@ npm run test
 
 ### RETO
 
-Genera un algoritmo para determinar si un número de entrada es primo o no. 
+Genera un algoritmo para determinar si un número de entrada es primo o no (true o false). 
 
 ### Enviar solución de reto
 Debes hacer un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia este repositorio.
