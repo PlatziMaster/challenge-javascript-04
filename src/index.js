@@ -8,6 +8,7 @@ const trialDivision = (number) => {
         while (divider <= Math.floor(number / 2)) {
           divider += 2;
           Number.isInteger(number / divider) ? isPrime = false : '';
+          isPrime ? '' : divider = number ;
         }
       }
     }
