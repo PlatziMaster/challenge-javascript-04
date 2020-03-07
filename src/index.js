@@ -13,7 +13,7 @@ const trialDivision = number => {
 			if (number % divisor === 0) {
 				isPrime = false;
 			}
-			divisor++;
+			divisor += 2;
 		}
 	}
 	return isPrime;
