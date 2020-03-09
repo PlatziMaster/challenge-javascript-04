@@ -1,4 +1,4 @@
-const trialDivision = require('../index');
+const trialDivision = require('../../utils/trialDivision');
 
 /**
  * @param {function(n: number)} testFunction
