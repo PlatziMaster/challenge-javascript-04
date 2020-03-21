@@ -1,7 +1,7 @@
 const trialDivision = (number) => {
     let r = 0
 
-    if (number == 0 || number == 1) {
+    if (number == 0 || number == 1 || Math.sign(number) == -1 || Math.sign(number) == -0) {
         return false
     } else {
 
