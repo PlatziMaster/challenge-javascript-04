@@ -21,6 +21,8 @@ function primalityTest(testFunction) {
   expect(testFunction(12)).toBe(false);
   expect(testFunction(14)).toBe(false);
   expect(testFunction(25)).toBe(false);
+  expect(testFunction(49)).toBe(false);
+  expect(testFunction(151)).toBe(true);
   expect(testFunction(192)).toBe(false);
   expect(testFunction(200)).toBe(false);
   expect(testFunction(400)).toBe(false);
