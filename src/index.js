@@ -1,5 +1,13 @@
 const trialDivision = (number) => {
-    
+  if (number < 2 || !Number.isInteger(number))
+    return false
+
+  for (let i = 2; i < number; i++) {
+    if (number % i == 0)
+      return false
   }
 
-  module.exports = trialDivision;
+  return true
+}
+
+module.exports = trialDivision;
