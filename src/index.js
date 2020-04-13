@@ -2,7 +2,7 @@ var ale = () => Math.floor(Math.random() * ((10+1)-2)+2);
 var alea = ale();
 
 
-const primo = () => { 
+const trialDivision = () => { 
   
   for (let i = 2; i < alea; i++) {
     
@@ -17,10 +17,10 @@ const primo = () => {
  
 }
 
-primo()
+trialDivision()
 
 
-// module.exports = trialDivision;
+module.exports = trialDivision;
 
 
 
