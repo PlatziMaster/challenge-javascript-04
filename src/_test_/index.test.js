@@ -1,6 +1,6 @@
 const trialDivision = require('../index');
 
-/**
+/**a
  * @param {function(n: number)} testFunction
  */
 
