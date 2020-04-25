@@ -1,5 +1,3 @@
-const trialDivision = (number) => {
-    
-  }
+const trialDivision = (number) => {};
 
-  module.exports = trialDivision;
+module.exports = trialDivision;
