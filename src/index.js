@@ -1,5 +1,5 @@
 const trialDivision = (number) => {
-    if(number < 2 || number % 1 !=0){
+    if(number < 2 || number % 1 != 0){
       return false
     }else{
       for(let i = 2; i< number; i++){
