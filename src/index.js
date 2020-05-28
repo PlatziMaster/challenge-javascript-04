@@ -7,7 +7,10 @@ const trialDivision = (number) => {
         if((number % i) === 0)
           count ++
 
+        if(count > 2)
+          break;
       }
+
       if(count === 2)
         result = true;
     }
