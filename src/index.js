@@ -8,5 +8,4 @@ const trialDivision = (number) => {
   return dividers.length === 2 ? true : false;  
 }
 
-trialDivision(13)
-  module.exports = trialDivision;
+module.exports = trialDivision;
