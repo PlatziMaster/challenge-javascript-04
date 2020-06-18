@@ -4,7 +4,8 @@
   "description": "Prueba de primalidad",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "num": "node src/index.js"
   },
   "repository": {
     "type": "git",
