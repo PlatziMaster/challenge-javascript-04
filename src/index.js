@@ -1,5 +1,15 @@
 const trialDivision = (number) => {
-    
-  }
 
-  module.exports = trialDivision;
+  if(number <= 1 || number % 1 != 0) {
+    return false
+  } else {
+    for(i = 2; i < number; i++) {
+      if(number % i === 0 ) {
+        return false
+      }
+    }
+    return true
+  }
+}
+
+module.exports = trialDivision;
