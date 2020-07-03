@@ -1,8 +1,8 @@
 const trialDivision = require('../index');
 
 /**
- * @param {function(n: number)} testFunction
- */
+  @param {function(n: number)} testFunction
+ **/
 
 function primalityTest(testFunction) {
   expect(testFunction(1)).toBe(false);
@@ -31,7 +31,7 @@ function primalityTest(testFunction) {
   expect(testFunction(10.5)).toBe(false);
 }
 
-describe('trialDivision', () => {
+describe(trialDivision, () => {
   it('should detect prime numbers', () => {
     primalityTest(trialDivision);
   });
