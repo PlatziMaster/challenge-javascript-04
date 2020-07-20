@@ -1,14 +1,14 @@
 const trialDivision = (number) => {
-  var i, divi=0;
+  let i, divisor = 0;
   
   for(i = 1; i <= number; i++) {
       
     if(number % i == 0) {
-      divi++;
+      divisor++;
     }
   } 
   
-  if(divi == 2) {
+  if(divisor == 2) {
     return true;
   } else {
       return false;
