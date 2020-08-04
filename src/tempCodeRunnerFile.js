@@ -2,7 +2,7 @@ const trialDivision = (number) => {
     
     let prime = true
 
-    for (let i = 0; number > i; i++){
+    for (let i = number; number > 0; i++){
       if (number % i === 0){
         prime = false
       }
@@ -10,14 +10,11 @@ const trialDivision = (number) => {
     
 
     if (prime === true){
-      return false
+      console.log("true")
     }
     else {
-      return true
+      console.log("false")
     }
   }
 
-  module.exports = trialDivision;
-
-
-
+  trialDivision(400)
