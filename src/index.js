@@ -2,7 +2,7 @@ const trialDivision = (number) => {
   
   let iterador= 2
   let esPrimo =true
-  if(number === 1 || number=== -1 ){
+  if(number <=1 ){
 
     return esPrimo = false
   
