@@ -1,3 +1,5 @@
+'use strict'
+
 const trialDivision = require('../index');
 
 /**
