@@ -1,14 +1,13 @@
 'use strict'
 
 const primeComprobation = (arrayOfPrimes, firstNumberToGetArrayPrime) => {
-  let prime = true
-  for (let i = 0; i < arrayOfPrimes.length; i++) {
-    if (firstNumberToGetArrayPrime % arrayOfPrimes[i] === 0 ) {
-      prime = false
-      break
+  let primeBand = true
+  arrayOfPrimes.map((prime) => {
+    if (firstNumberToGetArrayPrime % prime === 0 && primeBand) {
+      primeBand = false
     }
-  }
-  return prime
+  })
+  return primeBand
 }
 
 const arrayPrimeNumbers = (arrayOfPrimes, sqrtNumber, firstNumberToGetArrayPrime, number) => {
