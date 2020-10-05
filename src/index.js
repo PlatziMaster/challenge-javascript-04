@@ -11,7 +11,7 @@ const primeComprobation = (arrayOfPrimes, firstNumberToGetArrayPrime) => {
   return prime
 }
 
-function arrayPrimeNumbers (arrayOfPrimes, sqrtNumber, firstNumberToGetArrayPrime, number) {
+const arrayPrimeNumbers = (arrayOfPrimes, sqrtNumber, firstNumberToGetArrayPrime, number) => {
   if (sqrtNumber === firstNumberToGetArrayPrime || firstNumberToGetArrayPrime === number) {
     return arrayOfPrimes
   }
